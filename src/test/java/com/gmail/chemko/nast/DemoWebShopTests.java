@@ -26,7 +26,7 @@ public class DemoWebShopTests {
 
     @Test //Проверка добавления товара в корзину с куки
     void addToShoppingCartWithCookieTest() {
-        Integer shoppingCartSize = 16;
+        Integer shoppingCartSize = 18;
 
         given()
                 .contentType("application/x-www-form-urlencoded; charset=UTF-8")
